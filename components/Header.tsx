@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <>
 
-            <header className="relative w-full h-[80px] flex justify-between items-center px-3 sm:px-8 bg-gradient-to-r from-blue-900 via-blue-950 to-slate-900 shadow-sm">
+            <header className="sticky top-0 z-50 w-full h-[80px] flex justify-between items-center px-3 sm:px-8 bg-linear-to-r from-blue-900 via-blue-950 to-slate-900 shadow-sm">
                 <div
                     className="absolute top-0 right-0 h-6 bg-white px-4 pl-8 hidden lg:flex items-center gap-4 shadow-sm z-10"
                     style={{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 20px 100%)' }}

@@ -7,48 +7,48 @@ const NewArrivals = () => {
     const books = [
         {
             id: 1,
-            title: "Standard 1 Hindi",
+            title: "Std 1 Hindi",
             image: "/images/bookscover/std1hindi.jpeg",
         },
         {
             id: 2,
-            title: "Standard 1 Term 1",
+            title: "Std 1 Term 1",
             image: "/images/bookscover/std1term1.jpeg",
         },
         {
             id: 3,
-            title: "Standard 2 Semester 2",
+            title: "Std 2 Semester 2",
             image: "/images/bookscover/std2sem2.jpeg",
         },
         {
             id: 4,
-            title: "Standard 2 Term 2",
+            title: "Std 2 Term 2",
             image: "/images/bookscover/std2term2.jpeg",
         },
         {
             id: 5,
-            title: "Standard 3 Hindi",
+            title: "Std 3 Hindi",
             image: "/images/bookscover/std3hindi.jpeg",
         },
         {
             id: 6,
-            title: "Standard 3 Semester 2",
+            title: "Std 3 Semester 2",
             image: "/images/bookscover/std3sem2.jpeg",
         },
         {
             id: 7,
-            title: "Standard 3 Term 1",
+            title: "Std 3 Term 1",
             image: "/images/bookscover/std3term1.jpeg",
         },
         {
             id: 8,
-            title: "Standard 4 Term 2",
+            title: "Std 4 Term 2",
             image: "/images/bookscover/std4term2.jpeg",
         },
     ];
 
     return (
-        <section className="w-full py-20 bg-linear-to-b from-white to-gray-50 overflow-hidden">
+        <section className="w-full py-20 lg:mt-10 bg-linear-to-b from-white to-gray-50 overflow-hidden">
             <style jsx>{`
                 .book-container {
                     perspective: 1000px;
@@ -118,7 +118,7 @@ const NewArrivals = () => {
                 </div>
 
                 {/* View All Button */}
-                <div className="text-center mt-20">
+                <div className="text-center mt-30">
                     <button className="px-10 py-3 bg-rose-500 text-white rounded-full font-semibold shadow-lg shadow-rose-500/30 hover:bg-rose-600 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
                         View All Books
                     </button>

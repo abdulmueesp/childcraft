@@ -81,7 +81,7 @@ const BookOutline = () => {
                         {/* Book Image */}
                         <div className="mt-auto">
                             <Image
-                                src="/images/books.jpeg"
+                                src="/images/book3.jpeg"
                                 alt="Composite Mathematics"
                                 width={400}
                                 height={250}
