@@ -94,7 +94,7 @@ const Header = () => {
 
                 {/* Mobile Menu Dropdown */}
                 <div
-                    className={`absolute top-[80px] left-0 w-full bg-white shadow-lg md:hidden z-20 border-t border-gray-100 overflow-hidden transition-all duration-1100 ease-in-out ${isMobileMenuOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+                    className={`absolute top-[80px] left-0 w-full bg-white shadow-lg lg:hidden z-20 border-t border-gray-100 overflow-hidden transition-all duration-1100 ease-in-out ${isMobileMenuOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
                         }`}
                 >
                     <ul className="flex flex-col py-4 px-6 gap-4">

@@ -1,10 +1,13 @@
+import Banner from "@/components/Banner";
 import Header from "@/components/Header";
-import Image from "next/image";
+import AboutSection from "@/components/AboutSection";
 
 export default function Home() {
   return (
-    <>
-      {/* <Header /> */}
-    </>
+    <main>
+
+      <Banner />
+      <AboutSection />
+    </main>
   );
 }
