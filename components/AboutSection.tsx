@@ -15,7 +15,7 @@ const AboutSection = () => {
 
                 {/* Intro */}
                 <div className="text-center mb-16">
-                    <h2 className="text-sm font-bold tracking-widest text-[#8d3072] uppercase mb-3">Who We Are</h2>
+                    <h2 className="text-sm font-bold tracking-widest text-rose-500 uppercase mb-3">Who We Are</h2>
                     <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
                         Childcraft Hallmark Publishers
                     </h1>
