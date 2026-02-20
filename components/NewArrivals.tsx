@@ -69,7 +69,7 @@ const NewArrivals = () => {
                 {/* Heading */}
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 tracking-tight">
-                        New <span className="text-rose-500">Arrivals</span>
+                        New <span className="text-[#8d3072]">Arrivals</span>
                     </h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light">
                         Discover our latest collection designed to inspire young minds.
@@ -115,13 +115,6 @@ const NewArrivals = () => {
                             </div>
                         </div>
                     ))}
-                </div>
-
-                {/* View All Button */}
-                <div className="text-center mt-30">
-                    <button className="px-10 py-3 bg-rose-500 text-white rounded-full font-semibold shadow-lg shadow-rose-500/30 hover:bg-rose-600 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                        View All Books
-                    </button>
                 </div>
             </div>
         </section>

@@ -68,7 +68,7 @@ const BookOutline = () => {
                         </div>
                         {/* Title */}
                         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 relative z-10 pt-8">
-                            Our Books <span className="text-rose-400">Outline</span>
+                            Our Books <span className="text-[#8d3072]">Outline</span>
                         </h2>
 
                         {/* Description */}
@@ -118,7 +118,7 @@ const BookOutline = () => {
                 <div className="max-w-7xl mx-auto px-6 sm:px-12 relative z-10">
                     <div className="bg-white rounded-3xl shadow-xl p-8  border border-slate-100 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                         <div className="space-y-2">
-                            <h3 className="text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-linear-to-r from-rose-500 to-pink-600">250+</h3>
+                            <h3 className="text-xl md:text-3xl font-bold bg-clip-text  text-[#8d3072]">250+</h3>
                             <p className="text-gray-600 font-medium text-lg uppercase tracking-wide">Titles</p>
                         </div>
                         <div className="space-y-2 md:border-l md:border-r border-slate-100">

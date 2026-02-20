@@ -19,7 +19,7 @@ const ContactPage = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 
                     {/* Contact Information Card */}
-                    <div className="bg-white rounded-2xl shadow-xl p-8 sm:p-10 flex flex-col justify-between h-full border-t-4 border-rose-500">
+                    <div className="bg-white rounded-2xl shadow-xl p-8 sm:p-10 flex flex-col justify-between h-full border-t-4 border-[#8d3072]">
                         <div>
                             <h2 className="text-2xl font-bold text-gray-800 mb-8">Get in Touch</h2>
 
@@ -27,7 +27,7 @@ const ContactPage = () => {
                                 {/* Location */}
                                 <div className="flex items-start gap-5 group">
                                     <div className="w-12 h-12 rounded-full bg-rose-50 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-rose-500">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-[#8d3072]">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                                         </svg>
@@ -45,7 +45,7 @@ const ContactPage = () => {
                                 {/* Phone */}
                                 <div className="flex items-start gap-5 group">
                                     <div className="w-12 h-12 rounded-full bg-rose-50 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-rose-500">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-[#8d3072]">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                                         </svg>
                                     </div>
@@ -60,7 +60,7 @@ const ContactPage = () => {
                                 {/* Email */}
                                 <div className="flex items-start gap-5 group">
                                     <div className="w-12 h-12 rounded-full bg-rose-50 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-rose-500">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-[#8d3072]">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                                         </svg>
                                     </div>
@@ -75,7 +75,7 @@ const ContactPage = () => {
                                 {/* Working Hours */}
                                 <div className="flex items-start gap-5 group">
                                     <div className="w-12 h-12 rounded-full bg-rose-50 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-rose-500">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-[#8d3072]">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                                         </svg>
                                     </div>
@@ -91,7 +91,7 @@ const ContactPage = () => {
                     </div>
 
                     {/* Contact Form */}
-                    <div className="bg-white rounded-2xl shadow-xl p-8 sm:p-10 border-t-4 border-rose-500">
+                    <div className="bg-white rounded-2xl shadow-xl p-8 sm:p-10 border-t-4 border-[#8d3072]">
                         <h2 className="text-2xl font-bold text-gray-800 mb-6">Send us a Message</h2>
                         <form className="space-y-6">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -101,7 +101,7 @@ const ContactPage = () => {
                                         type="text"
                                         id="name"
                                         placeholder="John Doe"
-                                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-rose-500 focus:ring-2 focus:ring-rose-200 outline-none transition-all"
+                                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-[#8d3072] focus:ring-2 focus:ring-[#8d3072] outline-none transition-all"
                                     />
                                 </div>
                                 <div>
@@ -110,7 +110,7 @@ const ContactPage = () => {
                                         type="email"
                                         id="email"
                                         placeholder="john@example.com"
-                                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-rose-500 focus:ring-2 focus:ring-rose-200 outline-none transition-all"
+                                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-[#8d3072] focus:ring-2 focus:ring-[#8d3072] outline-none transition-all"
                                     />
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ const ContactPage = () => {
                                     type="text"
                                     id="subject"
                                     placeholder="How can we help?"
-                                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-rose-500 focus:ring-2 focus:ring-rose-200 outline-none transition-all"
+                                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-[#8d3072] focus:ring-2 focus:ring-[#8d3072] outline-none transition-all"
                                 />
                             </div>
 
@@ -131,13 +131,13 @@ const ContactPage = () => {
                                     id="message"
                                     rows={5}
                                     placeholder="Write your message here..."
-                                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-rose-500 focus:ring-2 focus:ring-rose-200 outline-none transition-all resize-none"
+                                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-[#8d3072] focus:ring-2 focus:ring-[#8d3072] outline-none transition-all resize-none"
                                 ></textarea>
                             </div>
 
                             <button
                                 type="submit"
-                                className="w-full py-4 bg-rose-500 text-white font-bold rounded-lg shadow-lg hover:bg-rose-600 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                                className="w-full py-4 bg-[#8d3072] text-white font-bold rounded-lg shadow-lg hover:bg-[#8d3072] hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
                             >
                                 Send Message
                             </button>
