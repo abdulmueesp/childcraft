@@ -68,10 +68,10 @@ const NewArrivals = () => {
             <div className="max-w-7xl mx-auto px-6 sm:px-12">
                 {/* Heading */}
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 tracking-tight">
+                    <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4 tracking-tight">
                         New <span className="text-[#8d3072]">Arrivals</span>
                     </h2>
-                    <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light">
+                    <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto font-light">
                         Discover our latest collection designed to inspire young minds.
                     </p>
                 </div>
@@ -111,7 +111,7 @@ const NewArrivals = () => {
 
                             {/* Title below book */}
                             <div className="mt-8 text-center opacity-100 transition-all duration-300 w-[140%] -ml-[20%]">
-                                <h3 className="text-gray-800 font-semibold text-lg leading-tight">{book.title}</h3>
+                                <h3 className="text-gray-800 font-semibold text-base md:text-lg leading-tight">{book.title}</h3>
                             </div>
                         </div>
                     ))}

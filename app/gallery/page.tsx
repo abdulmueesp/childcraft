@@ -18,7 +18,7 @@ export default function GalleryPage() {
     const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
     return (
-        <main className="min-h-screen bg-gray-50 py-16 md:py-24">
+        <main className="min-h-screen bg-gray-50 pt-10 md:pt-16 pb-8 md:py-24">
             <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
                 {/* Header Area */}
                 <div className="text-center mb-12 md:mb-16">
@@ -32,7 +32,7 @@ export default function GalleryPage() {
                                 );
                             })}
                         </div>
-                        <h1 className="relative z-10 text-4xl md:text-5xl font-bold text-gray-900">
+                        <h1 className="relative z-10 text-3xl md:text-5xl font-bold text-gray-900">
                             Our Gallery
                         </h1>
                     </div>

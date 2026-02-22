@@ -43,7 +43,7 @@ const BookOutline = () => {
     ];
 
     return (
-        <section className="w-full pt-16 pb-0 bg-[#FFFBF4] relative overflow-hidden">
+        <section className="w-full pt-10 md:pt-16 pb-0 bg-[#FFFBF4] relative overflow-hidden">
 
             {/* Background Decorative Elements (Optional - keeping subtle if needed, but sticking to clean design for now) */}
             <div className="absolute top-0 left-0 w-full h-full opacity-30 pointer-events-none">
@@ -67,12 +67,12 @@ const BookOutline = () => {
                             })}
                         </div>
                         {/* Title */}
-                        <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 relative z-10 pt-8">
+                        <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-6 relative z-10 pt-8">
                             Our Books <span className="text-[#8d3072]">Outline</span>
                         </h2>
 
                         {/* Description */}
-                        <p className="text-gray-700 leading-relaxed text-lg mb-8 relative z-10">
+                        <p className="text-base md:text-lg text-gray-700 leading-relaxed  mb-8 relative z-10">
                             Whether a book will ultimately be read on paper or an e-reader, interior book design can make or break a reader&apos;s enjoyment of a book. Book layouts are particular and definitely not one-size-fits-all. The design also must be adjusted for the style and genre of the book
                         </p>
 

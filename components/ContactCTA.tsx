@@ -32,7 +32,7 @@ export default function ContactCTA() {
                     </div>
 
                     {/* Quick Info Grid */}
-                    <div className="w-full lg:w-auto lg:min-w-[280px] bg-slate-900 rounded-2xl p-6 text-white shadow-2xl relative overflow-hidden group">
+                    <div className="hidden md:block w-full lg:w-auto lg:min-w-[280px] bg-slate-900 rounded-2xl p-6 text-white shadow-2xl relative overflow-hidden group">
                         <div className="absolute top-0 right-0 w-24 h-24 bg-rose-500/20 rounded-full filter blur-2xl group-hover:bg-rose-500/30 transition-colors duration-500"></div>
                         <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-500/20 rounded-full filter blur-2xl group-hover:bg-blue-500/30 transition-colors duration-500"></div>
 

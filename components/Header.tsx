@@ -16,7 +16,7 @@ const Header = () => {
         setIsPhoneCopied(true);
         setTimeout(() => setIsPhoneCopied(false), 2000);
     };
-    const menuItems = ['Home', 'About', 'Gallery', 'Contact'];
+    const menuItems = ['Home', 'Gallery', 'About', 'Contact'];
     // bg-[#8d3072]
     return (
         <>
@@ -165,8 +165,8 @@ const Header = () => {
                                 <button
                                     onClick={handleCopyPhone}
                                     className={`flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-sm transition-all duration-300 w-full sm:w-auto justify-center ${isPhoneCopied
-                                            ? 'bg-green-100 text-green-700'
-                                            : 'bg-[#172554] text-white hover:bg-blue-900 shadow-md hover:shadow-lg hover:-translate-y-0.5'
+                                        ? 'bg-green-100 text-green-700'
+                                        : 'bg-[#172554] text-white hover:bg-blue-900 shadow-md hover:shadow-lg hover:-translate-y-0.5'
                                         }`}
                                 >
                                     {isPhoneCopied ? (

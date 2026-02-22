@@ -10,7 +10,7 @@ const images = [
 
 export default function GallerySection() {
     return (
-        <section className="py-16 md:py-24 bg-red-white">
+        <section className="pt-10 md:pt-16 pb-8 md:py-24 bg-red-white">
             <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
                 {/* Header Area */}
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
