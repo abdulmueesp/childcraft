@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { FaGraduationCap, FaBookOpen, FaLightbulb, FaQuoteLeft } from 'react-icons/fa';
+import ContactCTA from "@/components/ContactCTA";
 
 export default function AboutPage() {
     return (
@@ -127,6 +128,8 @@ export default function AboutPage() {
                     </div>
                 </div>
             </section>
+
+            <ContactCTA />
         </main>
     );
 }

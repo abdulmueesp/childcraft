@@ -22,9 +22,20 @@ export default function GalleryPage() {
             <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
                 {/* Header Area */}
                 <div className="text-center mb-12 md:mb-16">
-                    <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                        Our Gallery
-                    </h1>
+                    <div className="relative inline-block mb-6 pt-8 pl-0">
+                        <div className="absolute top-0 left-0 grid grid-cols-6 gap-2 w-fit opacity-60 pointer-events-none">
+                            {[...Array(36)].map((_, i) => {
+                                const colors = ["bg-blue-400", "bg-rose-400", "bg-orange-400", "bg-green-400", "bg-slate-300"];
+                                const color = colors[i % colors.length];
+                                return (
+                                    <div key={i} className={`w-1.5 h-1.5 rounded-full ${color} ${i % 3 === 0 ? 'opacity-60' : 'opacity-100'}`}></div>
+                                );
+                            })}
+                        </div>
+                        <h1 className="relative z-10 text-4xl md:text-5xl font-bold text-gray-900">
+                            Our Gallery
+                        </h1>
+                    </div>
                     <p className="text-gray-600 text-base md:text-lg max-w-2xl mx-auto">
                         Explore a curated collection of our most significant achievements, successful projects, and memorable moments.
                         These images capture our journey, illustrating our ongoing commitment to excellence.

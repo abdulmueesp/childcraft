@@ -4,6 +4,7 @@ import AboutSection from "@/components/AboutSection";
 import BookOutline from "@/components/BookOutline";
 import NewArrivals from "@/components/NewArrivals";
 import GallerySection from "@/components/GallerySection";
+import ContactCTA from "@/components/ContactCTA";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <BookOutline />
       <NewArrivals />
       <GallerySection />
+      <ContactCTA />
     </main>
   );
 }
