@@ -5,10 +5,10 @@ import Image from "next/image";
 
 const Banner = () => {
     const images = [
-        "/images/banner.jpeg",
-        "/images/banner2.jpeg",
-        "/images/banner3.jpeg",
-        "/images/banner4.jpeg",
+        "/images/banner3.png",
+        "/images/banner22.png",
+        "/images/banner45.png",
+
     ];
 
     const [current, setCurrent] = useState(0);
