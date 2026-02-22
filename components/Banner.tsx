@@ -5,8 +5,9 @@ import Image from "next/image";
 
 const Banner = () => {
     const images = [
+
         "/images/banner3.png",
-        "/images/banner22.png",
+        "/images/banner222.png",
         "/images/banner45.png",
 
     ];
